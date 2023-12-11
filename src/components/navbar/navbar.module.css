@@ -1,4 +1,19 @@
 .navbar {
   grid-area: navbar;
   background-color: rgb(176, 216, 239);
+  padding-left: 20px;
+  padding-top: 15px;
 }
+.navbar div:last-child {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(40, 52, 59);
+  margin-bottom: 7px;
+}
+.navbar a.active {
+  color: rgb(249, 9, 69);
+} 
