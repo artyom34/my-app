@@ -8,7 +8,7 @@ import Music from "./music/Music";
 import Settings from "./settings/Settings"; 
 
 const Content = () => {
-  return (
+  return (  
     <div className={classes.content}>
       <Routes>
         <Route path="/profile" element={<Profile />} />

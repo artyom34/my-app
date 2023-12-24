@@ -1,4 +1,5 @@
 .header {
+  display: flex;
   grid-area: header;
   background-color: rgb(179, 183, 223);
 }
